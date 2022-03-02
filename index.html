@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Werewolf_OW</title>
+</head>
+<body>
+    <section class="header-and-hero">
+        <header class="header">
+            <img class="logo" src="img/logo/logo.png" alt="logo">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a href="#" class="header-nav-link">HOME</a></li>
+                    <li><a href="#" class="header-nav-link">CHARACTERS</a></li>
+                    <li><a href="#" class="header-nav-link">NEWS</a></li>
+                    <li><a href="#" class="header-nav-link">FEATURES</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section-hero">
+            <div class="hero-text-box">
+                <h1 class="hero-text-header">WereWolf_OW</h1>
+                <p class="hero-text-description">Are you a villager?</p>
+                <p class="hero-text-description">Or are you a werewolf?</p>
+            </div>
+
+            <div class="hero-img-btn">
+                <div class="hero-img">
+                    <img src="img/human/revealor.jpg" alt="">
+                    <img src="img/wolf/wolf.jpg" alt="">
+                    <img src="img/human/investigator.jpg" alt="">
+                </div>
+
+                <a href="#" class="hero-btn hero-btn-play">PLAY</a>
+                <a href="#" class="hero-btn hero-btn-basic">BASIC RULES</a>
+            </div>
+        </section>
+    </section>
+
+    <section class="section-characters">
+      <div class="container">
+          <h2 class="subheading">CHARACTERS</h2>
+      </div>
+
+      <!-- CHARACTERS -->
+      <div class="characters-villagers">
+        <div class="container grid grid--2-cols">
+            <div class="characters-img">
+                <img src="img/human/idiot.jpg" alt="Villager idiot">
+            </div>
+
+            <div class="characters-text-box">
+                <h3 class="characters-name">Villagers</h3>
+                <p class="characters-description">The Villagers are a team seeking to kill all of the Werewolves. 
+                    A Villager is a player character with no abilities, but the Village also includes any role not on the 
+                    same team of the Werewolves, like the Guard, the Seer, the Witch, and others.
+                </p>
+            </div>
+        </div>
+
+        <div class="container grid grid--2-cols">
+            <div class="characters-img">
+                <img src="img/human/investigator.jpg" alt="Investigator">
+            </div>
+
+            <div class="characters-text-box">
+                <h3 class="characters-name">Investigator</h3>
+                <p class="characters-description">The Investigator is a Villager, and is told whether or not 
+                    either of the players sitting next to them has awoken during the night. Only a yes or 
+                    no is given. The Moderator doesn't indicate which one awoke. The Insomniac must wake last during the night.
+                </p>
+            </div>
+        </div>
+
+        <div class="container grid grid--2-cols">
+            <div class="characters-img">
+                <img src="img/human/revealor.jpg" alt="Revealor">
+            </div>
+
+            <div class="characters-text-box">
+                <h3 class="characters-name">Reavealor</h3>
+                <p class="characters-description">The Revealor is a Villager who can shield one of the other players from Werewolf attacks. 
+                    On the first night, the Priest chooses who should receive protection. 
+                    The next attempt to kill the selected player fails. The night after that attempt 
+                    (or if the protected player is lynched / killed by the Witch, the Hunter, etc), the Priest can choose 
+                    a different player to shield
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container grid grid--2-cols-rev"> 
+            <div class="characters-text-box-wolf">
+                <h3 class="characters-name">Werewolf</h3>
+                <p class="characters-description-wolf">The Werewolves are a team working against the Villagers. 
+                    The Werewolves collectively choose a player to kill each night. Each night the Moderator
+                    will wake them up as a group and allow them to choose a victim to kill for that night. The 
+                    Moderator tells the victim as the day phase starts.
+                </p>
+            </div>
+
+            <div class="characters-img wolf">
+                <img src="img/wolf/wolf.jpg" alt="Werewolf">
+            </div>
+        </div>
+
+        <div class="container grid grid--2-cols-rev"> 
+            <div class="characters-text-box-wolf">
+                <h3 class="characters-name">Alphawolf</h3>
+                <p class="characters-description-wolf">The Alpha Werewolf is a member of the Werewolf team. 
+                    Whenever an Alpha Werewolf is killed he chooses another player. The chosen player dies as well.
+                </p>
+            </div>
+
+            <div class="characters-img wolf">
+                <img src="img/wolf/alphawolf.jpg" alt="Alphawolf">
+            </div>
+        </div>
+
+        <div class="container grid grid--2-cols-rev"> 
+            <div class="characters-text-box-wolf">
+                <h3 class="characters-name">Mysticwolf</h3>
+                <p class="characters-description-wolf">The Mystic Wolf wakes up withthe other
+                    werewolves- but also has the Seer-l;ike ability to view the role card of 
+                    one other player
+                </p>
+            </div>
+
+            <div class="characters-img wolf">
+                <img src="img/wolf/mysticwolf.jpg" alt="Alphawolf">
+            </div>
+        </div>
+
+        <div class="container grid grid--2-cols-rev"> 
+            <div class="characters-text-box-wolf">
+                <h3 class="characters-name">Alphawolf</h3>
+                <p class="characters-description-wolf">The Alpha Werewolf is a member of the Werewolf team. 
+                    Whenever an Alpha Werewolf is killed he chooses another player. The chosen player dies as well.
+                </p>
+            </div>
+
+            <div class="characters-img wolf">
+                <img src="img/wolf/alphawolf.jpg" alt="Alphawolf">
+            </div>
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>

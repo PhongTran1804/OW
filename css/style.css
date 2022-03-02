@@ -1,0 +1,246 @@
+/* 
+    COLOR
+--- font: #fef313 
+tint: #fef871
+shade: #cbc20f
+
+background: #407A0F
+shade: #33620c
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 10px / 16px = 0.625 */
+    /* percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Syne Tactile", sans-serif;
+    
+    
+    line-height: 1;
+    font-weight: 400;
+    color: #fef313;
+}
+
+/***************************/
+/* REUSABLE GRID */
+/**************************/
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: 20rem 70rem;
+    grid-column-gap: 5rem;
+}
+
+.grid--2-cols-rev {
+    grid-template-columns: 70rem 20rem;
+    grid-column-gap: 5rem;
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/***************************/
+/* HEADER & HERO */
+/**************************/
+
+.header-and-hero {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/030/857/871/large/erel-maatita-sketch1.jpg?1601888475);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/***************************/
+/* HEADER */
+/**************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #407A0F; */
+    color: #fff;
+    
+    padding: 1rem;
+    /* height: 9.6rem;
+    padding: 0 4.8rem; */
+}
+
+.logo {
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+    gap: 3rem;
+    font-size: 3rem;
+}
+
+.header-nav-link:link,
+.header-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    
+    padding: 2rem 3rem;
+    color: #fff;
+    font-weight: 900;
+
+    transition: background-color 0.5s;
+    border-radius: 60%;
+}
+
+.header-nav-link:hover,
+.header-nav-link:active {
+    background-color: #fef313;
+    color: #000;
+}
+
+/***************************/
+/* SECTION HERO*/
+/**************************/
+
+.section-hero {
+    /* background-image: url(https://cdnb.artstation.com/p/assets/images/images/030/857/871/large/erel-maatita-sketch1.jpg?1601888475); */
+
+    height: 65rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4.8rem 2.5rem 9.6rem 6rem; 
+}
+
+.hero-text-header{
+    font-size: 7.4rem;
+    font-weight: 800;
+    line-height: 1.6;
+
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.hero-text-description {
+    font-size: 4.8rem;
+    line-height: 0.6;
+    margin-bottom: 4.8rem;
+    color: #fef871;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+    
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    
+    background-color: #407A0F;
+    color: #fef313;
+    border-radius: 20%;
+
+    margin-left: 4rem;
+    transition: background-color 0.5s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: #33620c;
+}
+
+.hero-img {
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.hero-img img {
+    height: 34.8rem;
+    width: 24.8rem;
+    border-radius: 20%;
+    margin-right: -4.6rem;
+    border: 3px solid #fef313
+}
+
+/***************************/
+/* SECTION CHARACTERS */
+/**************************/
+
+.section-characters {
+    background-image: url(https://wallpaperaccess.com/full/560631.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subheading {
+    font-size: 4.8rem;
+    padding: 2rem;
+    margin-left: 20rem;
+}
+
+.characters-img img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: #fef313 solid;
+}
+
+.characters-text-box {
+    background-color: #132504;
+    padding: 2.4rem;
+    /* border-radius: 20%; */
+}
+
+.characters-name {
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+
+.characters-description {
+    font-size: 1.8rem;
+    color: #b3b3b3;
+    line-height: 1.2;
+}
+
+/* CHARACTERS WOLF */
+.characters-text-box-wolf {
+    background-color:#890F03 ;
+    padding: 2.4rem;
+    /* border-radius: 20%; */
+}
+
+.wolf img {
+    border: #F90D0D solid;
+}
+
+.characters-description-wolf {
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
